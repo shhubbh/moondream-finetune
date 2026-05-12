@@ -32,8 +32,8 @@ Every stage writes a `.done` marker. Restart auto-skips finished stages. Config 
 ## Run
 
 ```bash
-git clone https://github.com/shhubbh/moondream-finetune.git
-cd moondream-finetune
+git clone https://github.com/shhubbh/smolvlm-vqa-gguf.git
+cd smolvlm-vqa-gguf
 
 python3.10 -m venv .venv && source .venv/bin/activate
 pip install --index-url https://download.pytorch.org/whl/cpu torch==2.4.1
